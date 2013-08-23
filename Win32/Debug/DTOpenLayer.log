@@ -1,0 +1,13 @@
+﻿Build started 8/22/2013 8:16:05 AM.
+     1>Project "C:\Users\labuser\Documents\Projects\MMSource\micromanager-1.4\DeviceAdapters\DTOpenLayer\DTOpenLayer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Win32\Debug\DTOpenLayer.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\3rdparty\DataTranslation\SDK\Include /Zi /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MODULE_EXPORTS /D _WINDLL /D _MBCS /Gm /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /wd4290 /analyze- /errorReport:prompt DTOpenLayer.cpp
+         DTOpenLayer.cpp
+     1>DTOpenLayer.cpp(70): fatal error C1083: Cannot open include file: '../../../3rdparty/DataTranslation/SDK/include/olmem.h': No such file or directory
+     1>Done Building Project "C:\Users\labuser\Documents\Projects\MMSource\micromanager-1.4\DeviceAdapters\DTOpenLayer\DTOpenLayer.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.99

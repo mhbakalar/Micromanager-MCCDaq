@@ -1,0 +1,29 @@
+﻿Build started 8/22/2013 2:15:39 PM.
+     1>Project "C:\Users\labuser\Documents\Projects\MMSource\micromanager-1.4\DeviceAdapters\MCCDaq\MCCDaq.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Win32\Release\MCCDaq.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\3rdParty\MCCDaq /Zi /nologo /W4 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MODULE_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHa /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /wd4290 /analyze- /errorReport:prompt MCCDaq.cpp
+         MCCDaq.cpp
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\labuser\Documents\Projects\MMSource\micromanager-1.4\DeviceAdapters\MCCDaq\Win32\Release\MCCDaq.dll) does not match the Linker's OutputFile property value (C:\Users\labuser\Documents\Projects\MMSource\micromanager-1.4\DeviceAdapters\MCCDaq\Win32\Release\mmgr_dal_MCCDaq.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(MCCDaq) does not match the Linker's OutputFile property value (mmgr_dal_MCCDaq). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Release\mmgr_dal_MCCDaq.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\3rdParty\MCCDaq cbw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\MCCDaq.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\labuser\Documents\Projects\MMSource\micromanager-1.4\DeviceAdapters\MCCDaq\Win32\Release\MCCDaq.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Win32\Release\MCCDaq.lib" /MACHINE:X86 /DLL Win32\Release\DeviceUtils.obj
+         Win32\Release\MCCDaq.obj
+         Win32\Release\ModuleInterface.obj
+         Win32\Release\Property.obj
+            Creating library Win32\Release\MCCDaq.lib and object Win32\Release\MCCDaq.exp
+         MCCDaq.vcxproj -> C:\Users\labuser\Documents\Projects\MMSource\micromanager-1.4\DeviceAdapters\MCCDaq\Win32\Release\MCCDaq.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Win32\Release\mmgr_dal_MCCDaq.dll;#2" /manifest Win32\Release\MCCDaq.dll.intermediate.manifest
+       PostBuildEvent:
+         copy "C:\Users\labuser\Documents\Projects\MMSource\micromanager-1.4\DeviceAdapters\MCCDaq\Win32\Release\MCCDaq.dll" ..\..\bin_Win32
+         :VCEnd
+         The system cannot find the file specified.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: The command "copy "C:\Users\labuser\Documents\Projects\MMSource\micromanager-1.4\DeviceAdapters\MCCDaq\Win32\Release\MCCDaq.dll" ..\..\bin_Win32
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "C:\Users\labuser\Documents\Projects\MMSource\micromanager-1.4\DeviceAdapters\MCCDaq\MCCDaq.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.85
